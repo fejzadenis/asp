@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/denis/CLionProjects/domaciasp/cvor.cpp
+cvor.h
+C:/Users/denis/CLionProjects/domaciasp/cvor.h
+
+C:/Users/denis/CLionProjects/domaciasp/cvor.h
+string
+-
+
+C:/Users/denis/CLionProjects/domaciasp/main.cpp
+iostream
+-
+stabla.h
+C:/Users/denis/CLionProjects/domaciasp/stabla.h
+
+C:/Users/denis/CLionProjects/domaciasp/stabla.h
+cvor.h
+C:/Users/denis/CLionProjects/domaciasp/cvor.h
+bits/stdc++.h
+-
+
