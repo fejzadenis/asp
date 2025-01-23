@@ -1,30 +1,28 @@
-# asp
-Algoritmi i strukture podata - C++
+Algorithms and Data Structures - C++
+About the Project
+This project implements a structure called "Tree" which organizes questions and answers in a hierarchical structure. It can be used to create knowledge bases, forums, and support systems.
 
-Stabla - Struktura za čuvanje pitanja i odgovora
-Ovaj projekat implementira strukturu pod nazivom "Stabla" koja omogućava organizaciju pitanja i odgovora u hijerarhijsku strukturu. Ova struktura može biti korisna za kreiranje sistema za skladištenje i upravljanje pitanjima i odgovorima, kao što su baze znanja, forumi ili sistemi za podršku.
+Features
+The program provides the following options:
 
-Kako koristiti program
-Program omogućava sledeće opcije:
+Create the structure
+Add new questions
+Add answers to questions or existing answers
+Search for questions
+PREORDER search for answers
+Increase the rating of an answer
+Sort nodes by rating
+Print questions
+Print the entire tree (questions)
+Delete a node and its descendants
+Delete a question
+Find the question with the most descendants
+Exit the program
+Each of these options allows the user to interact with the tree structure in various ways.
 
-Kreiranje strukture.
-Dodavanje novih pitanja.
-Dodavanje odgovora na pitanja ili postojeće odgovore.
-Pretraga pitanja.
-Pretraživanje odgovora u predefinisanom redosledu.
-Povećanje ocjene odgovora.
-Sortiranje čvorova po ocjeni.
-Ispisivanje pitanja.
-Ispisivanje celog stabla (pitanja).
-Brisanje čvora i njegovih potomaka.
-Brisanje pitanja.
-Pronalaženje pitanja sa najviše potomaka.
-Izlaz iz programa.
-Svaka od ovih opcija omogućava korisniku interakciju sa strukturom stabla na različite načine.
+Installation
+To run the program, follow these steps:
 
-Instalacija i pokretanje
-Da biste pokrenuli ovaj program, možete pratiti sledeće korake:
-
-Preuzmite izvorni kod sa ovog GitHub repozitorijuma.
-Kompajlirajte izvorni kod koristeći odgovarajući C++ kompajler.
-Pokrenite izvršni fajl
+Download the source code from this GitHub repository.
+Compile the code using a C++ compiler.
+Run the executable file.
