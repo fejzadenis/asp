@@ -1,4 +1,6 @@
-Algorithms and Data Structures - C++
+Algorithms and Data Structures 
+
+
 About the Project
 This project implements a structure called "Tree" which organizes questions and answers in a hierarchical structure. It can be used to create knowledge bases, forums, and support systems.
 
