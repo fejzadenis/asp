@@ -1,30 +1,60 @@
-Algorithms and Data Structures 
+🌳 Algorithms and Data Structures – Tree-Based Q&A System
+Welcome to Algorithms and Data Structures, a C++ project implementing a tree structure designed to manage and organize questions and answers in a hierarchical format. This structure is ideal for building knowledge bases, support systems, or forum-like environments.
 
+📂 Project Structure
+File / Folder	Description
+.idea/	Project-specific settings (IDE generated)
+cmake-build-debug/	Build directory (IDE generated)
+CMakeLists.txt	Build configuration for CMake
+README.md	Project documentation (this file)
+main.cpp	Program entry point
+cvor.cpp / cvor.h	Node (vertex) implementation
+stabla.cpp / stabla.h	Tree implementation
 
-About the Project
-This project implements a structure called "Tree" which organizes questions and answers in a hierarchical structure. It can be used to create knowledge bases, forums, and support systems.
+📌 Project Overview
+This program defines a Tree data structure that allows users to create and manipulate a hierarchy of questions and answers. Each node in the tree represents either a question or an answer.
 
-Features
-The program provides the following options:
+🚀 Features
+The application offers the following functionalities:
 
-Create the structure
-Add new questions
-Add answers to questions or existing answers
-Search for questions
-PREORDER search for answers
-Increase the rating of an answer
-Sort nodes by rating
-Print questions
-Print the entire tree (questions)
-Delete a node and its descendants
-Delete a question
-Find the question with the most descendants
-Exit the program
-Each of these options allows the user to interact with the tree structure in various ways.
+🌱 Create a new tree structure
 
-Installation
-To run the program, follow these steps:
+➕ Add a new question
 
-Download the source code from this GitHub repository.
-Compile the code using a C++ compiler.
-Run the executable file.
+➕ Add an answer to a question or another answer
+
+🔍 Search for questions
+
+🔎 Preorder search through answers
+
+⭐ Increase the rating of an answer
+
+🔢 Sort answers by rating
+
+🖨️ Print all questions
+
+🖨️ Print the entire tree (in readable format)
+
+❌ Delete a question or answer along with all its descendants
+
+🏆 Find the question with the most descendants
+
+🚪 Exit the program
+
+Each option provides a unique way to explore and manage the question-answer hierarchy.
+
+🛠️ Installation & Usage
+To get started, follow these steps:
+
+1.Clone the repository:
+
+2.Compile the program using CMake or any C++ compiler:
+mkdir build && cd build
+cmake ..
+make
+
+3.Run the executable:
+./tree-qa
+
+👤 Author
+Denis Fejza
